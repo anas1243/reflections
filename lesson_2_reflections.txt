@@ -14,13 +14,28 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	*you can only add some files from the current state of the working directory
+	 then commit those some files only.*
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+		
+	*when you are making unofficial version of your app
+	support different language and keep the original one as it is
+	when you are making an experimental version of your application*
 
 How do the diagrams help you visualize the branch structure?
+	*digrams help me in knowing the paretns of all commits and to avoid detach state commits
+	etc..*
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	*a new commit to the checkedout branch merged with the one in the parameters of the git
+	 merge, the checkout branch will be the head with this merge commit as a state
+	 if we enter git log --> it will show the two branches commits based on the commit time*
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	*pros --> it saves time and effort
+	cons --> i thing the editing on the code might be alittle tricky*

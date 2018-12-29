@@ -39,4 +39,7 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    *when working in a new feature or when you want to make a pull request to
+     be viewed by someone, you don't want it to affect the master github brach.
+     you need first to get the approval for your work in a separate branch then
+     merge this new branch into the master branch for both master*
